@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8810706227DEF241001A9ECD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810705F27DEF240001A9ECD /* Persistence.swift */; };
+		8810706327DEF241001A9ECD /* Vjapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8810706027DEF241001A9ECD /* Vjapp.xcdatamodeld */; };
+		8810706527DEF334001A9ECD /* thumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810706427DEF334001A9ECD /* thumb.swift */; };
+		88341D0A27DBD6D1005E9DDB /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88341D0927DBD6D1005E9DDB /* LoopingPlayer.swift */; };
+		88341D0B27DBD6D1005E9DDB /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88341D0927DBD6D1005E9DDB /* LoopingPlayer.swift */; };
+		8872140927D37A220091849E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872140827D37A220091849E /* VideoModel.swift */; };
+		8872140A27D37A220091849E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872140827D37A220091849E /* VideoModel.swift */; };
+		8872140C27D385150091849E /* CompDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872140B27D385150091849E /* CompDetail.swift */; };
+		8872140D27D385150091849E /* CompDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872140B27D385150091849E /* CompDetail.swift */; };
+		8872141527D3AA6C0091849E /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872141427D3AA6C0091849E /* ImagePickerView.swift */; };
+		8872141627D3AA6C0091849E /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872141427D3AA6C0091849E /* ImagePickerView.swift */; };
+		8873928727E0ECB6004C6983 /* MIDIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8873928627E0ECB6004C6983 /* MIDIKit */; };
+		88836DA827C5F7BD0028EA19 /* VjappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836D9827C5F7BD0028EA19 /* VjappApp.swift */; };
+		88836DA927C5F7BD0028EA19 /* VjappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836D9827C5F7BD0028EA19 /* VjappApp.swift */; };
+		88836DAA27C5F7BD0028EA19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836D9927C5F7BD0028EA19 /* ContentView.swift */; };
+		88836DAB27C5F7BD0028EA19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836D9927C5F7BD0028EA19 /* ContentView.swift */; };
+		88836DAC27C5F7BD0028EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88836D9A27C5F7BD0028EA19 /* Assets.xcassets */; };
+		88836DAD27C5F7BD0028EA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88836D9A27C5F7BD0028EA19 /* Assets.xcassets */; };
+		88836DBA27C5FC7C0028EA19 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836DB927C5FC7C0028EA19 /* VideoList.swift */; };
+		88836DBB27C5FC7C0028EA19 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836DB927C5FC7C0028EA19 /* VideoList.swift */; };
+		889EE26527E17590006AD155 /* midiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE26427E17590006AD155 /* midiPickerView.swift */; };
+		889EE26627E17590006AD155 /* midiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE26427E17590006AD155 /* midiPickerView.swift */; };
+		88A07DC827DB29F60088E4F4 /* ExternalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A07DC727DB29F60088E4F4 /* ExternalView.swift */; };
+		88A07DCA27DB2ABC0088E4F4 /* ExternalDisplayContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A07DC927DB2ABC0088E4F4 /* ExternalDisplayContent.swift */; };
+		88A07DCD27DB2C230088E4F4 /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A07DCB27DB2C230088E4F4 /* ScreensApp.swift */; };
+		88DAF3A627DFB655008E5F69 /* ClipGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DAF3A527DFB655008E5F69 /* ClipGalleryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8810705F27DEF240001A9ECD /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8810706127DEF241001A9ECD /* Vjapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vjapp.xcdatamodel; sourceTree = "<group>"; };
+		8810706427DEF334001A9ECD /* thumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thumb.swift; sourceTree = "<group>"; };
+		88341D0927DBD6D1005E9DDB /* LoopingPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingPlayer.swift; sourceTree = "<group>"; };
+		8872140827D37A220091849E /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		8872140B27D385150091849E /* CompDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompDetail.swift; sourceTree = "<group>"; };
+		8872141427D3AA6C0091849E /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		88836D9827C5F7BD0028EA19 /* VjappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VjappApp.swift; sourceTree = "<group>"; };
+		88836D9927C5F7BD0028EA19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88836D9A27C5F7BD0028EA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88836D9F27C5F7BD0028EA19 /* Vjapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vjapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88836DA527C5F7BD0028EA19 /* Vjapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vjapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88836DA727C5F7BD0028EA19 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		88836DB927C5FC7C0028EA19 /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
+		889EE26427E17590006AD155 /* midiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midiPickerView.swift; sourceTree = "<group>"; };
+		88A07DC727DB29F60088E4F4 /* ExternalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalView.swift; sourceTree = "<group>"; };
+		88A07DC927DB2ABC0088E4F4 /* ExternalDisplayContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalDisplayContent.swift; sourceTree = "<group>"; };
+		88A07DCB27DB2C230088E4F4 /* ScreensApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreensApp.swift; sourceTree = "<group>"; };
+		88DAF3A527DFB655008E5F69 /* ClipGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipGalleryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88836D9C27C5F7BD0028EA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8873928727E0ECB6004C6983 /* MIDIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88836DA227C5F7BD0028EA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8810705E27DEF234001A9ECD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8810705F27DEF240001A9ECD /* Persistence.swift */,
+				8810706027DEF241001A9ECD /* Vjapp.xcdatamodeld */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8815EEA227DB16D900C33CE0 /* VideoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8872141427D3AA6C0091849E /* ImagePickerView.swift */,
+				8810706427DEF334001A9ECD /* thumb.swift */,
+				88DAF3A527DFB655008E5F69 /* ClipGalleryView.swift */,
+			);
+			name = VideoPicker;
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8834E98C27DB256200648887 /* ExternalDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				88A07DC727DB29F60088E4F4 /* ExternalView.swift */,
+				88A07DC927DB2ABC0088E4F4 /* ExternalDisplayContent.swift */,
+				88A07DCB27DB2C230088E4F4 /* ScreensApp.swift */,
+			);
+			path = ExternalDisplay;
+			sourceTree = "<group>";
+		};
+		88836D9227C5F7BD0028EA19 = {
+			isa = PBXGroup;
+			children = (
+				88836D9727C5F7BD0028EA19 /* Shared */,
+				88836D9A27C5F7BD0028EA19 /* Assets.xcassets */,
+				88836DA627C5F7BD0028EA19 /* macOS */,
+				88836DA027C5F7BD0028EA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88836D9727C5F7BD0028EA19 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				88836D9927C5F7BD0028EA19 /* ContentView.swift */,
+				88836D9827C5F7BD0028EA19 /* VjappApp.swift */,
+				8815EEA227DB16D900C33CE0 /* VideoPicker */,
+				88836DBF27C60C5C0028EA19 /* Video */,
+				8810705E27DEF234001A9ECD /* data */,
+				8834E98C27DB256200648887 /* ExternalDisplay */,
+				889EE26427E17590006AD155 /* midiPickerView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		88836DA027C5F7BD0028EA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88836D9F27C5F7BD0028EA19 /* Vjapp.app */,
+				88836DA527C5F7BD0028EA19 /* Vjapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88836DA627C5F7BD0028EA19 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				88836DA727C5F7BD0028EA19 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		88836DBF27C60C5C0028EA19 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				88836DB927C5FC7C0028EA19 /* VideoList.swift */,
+				8872140827D37A220091849E /* VideoModel.swift */,
+				8872140B27D385150091849E /* CompDetail.swift */,
+				88341D0927DBD6D1005E9DDB /* LoopingPlayer.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88836D9E27C5F7BD0028EA19 /* Vjapp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88836DB027C5F7BD0028EA19 /* Build configuration list for PBXNativeTarget "Vjapp (iOS)" */;
+			buildPhases = (
+				88836D9B27C5F7BD0028EA19 /* Sources */,
+				88836D9C27C5F7BD0028EA19 /* Frameworks */,
+				88836D9D27C5F7BD0028EA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vjapp (iOS)";
+			packageProductDependencies = (
+				8873928627E0ECB6004C6983 /* MIDIKit */,
+			);
+			productName = "Vjapp (iOS)";
+			productReference = 88836D9F27C5F7BD0028EA19 /* Vjapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88836DA427C5F7BD0028EA19 /* Vjapp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88836DB327C5F7BD0028EA19 /* Build configuration list for PBXNativeTarget "Vjapp (macOS)" */;
+			buildPhases = (
+				88836DA127C5F7BD0028EA19 /* Sources */,
+				88836DA227C5F7BD0028EA19 /* Frameworks */,
+				88836DA327C5F7BD0028EA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vjapp (macOS)";
+			productName = "Vjapp (macOS)";
+			productReference = 88836DA527C5F7BD0028EA19 /* Vjapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88836D9327C5F7BD0028EA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					88836D9E27C5F7BD0028EA19 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					88836DA427C5F7BD0028EA19 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 88836D9627C5F7BD0028EA19 /* Build configuration list for PBXProject "Vjapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88836D9227C5F7BD0028EA19;
+			packageReferences = (
+				8873928527E0ECB6004C6983 /* XCRemoteSwiftPackageReference "MIDIKit" */,
+			);
+			productRefGroup = 88836DA027C5F7BD0028EA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88836D9E27C5F7BD0028EA19 /* Vjapp (iOS) */,
+				88836DA427C5F7BD0028EA19 /* Vjapp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88836D9D27C5F7BD0028EA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88836DAC27C5F7BD0028EA19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88836DA327C5F7BD0028EA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88836DAD27C5F7BD0028EA19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88836D9B27C5F7BD0028EA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88836DBA27C5FC7C0028EA19 /* VideoList.swift in Sources */,
+				88836DAA27C5F7BD0028EA19 /* ContentView.swift in Sources */,
+				88DAF3A627DFB655008E5F69 /* ClipGalleryView.swift in Sources */,
+				8810706227DEF241001A9ECD /* Persistence.swift in Sources */,
+				8872140927D37A220091849E /* VideoModel.swift in Sources */,
+				8872141527D3AA6C0091849E /* ImagePickerView.swift in Sources */,
+				8810706527DEF334001A9ECD /* thumb.swift in Sources */,
+				88836DA827C5F7BD0028EA19 /* VjappApp.swift in Sources */,
+				88A07DC827DB29F60088E4F4 /* ExternalView.swift in Sources */,
+				88A07DCD27DB2C230088E4F4 /* ScreensApp.swift in Sources */,
+				88A07DCA27DB2ABC0088E4F4 /* ExternalDisplayContent.swift in Sources */,
+				889EE26527E17590006AD155 /* midiPickerView.swift in Sources */,
+				88341D0A27DBD6D1005E9DDB /* LoopingPlayer.swift in Sources */,
+				8810706327DEF241001A9ECD /* Vjapp.xcdatamodeld in Sources */,
+				8872140C27D385150091849E /* CompDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88836DA127C5F7BD0028EA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88836DBB27C5FC7C0028EA19 /* VideoList.swift in Sources */,
+				88836DAB27C5F7BD0028EA19 /* ContentView.swift in Sources */,
+				8872140A27D37A220091849E /* VideoModel.swift in Sources */,
+				8872141627D3AA6C0091849E /* ImagePickerView.swift in Sources */,
+				889EE26627E17590006AD155 /* midiPickerView.swift in Sources */,
+				88836DA927C5F7BD0028EA19 /* VjappApp.swift in Sources */,
+				8872140D27D385150091849E /* CompDetail.swift in Sources */,
+				88341D0B27DBD6D1005E9DDB /* LoopingPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88836DAE27C5F7BD0028EA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88836DAF27C5F7BD0028EA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		88836DB127C5F7BD0028EA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ8X2Y29E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakutek.Vjapp;
+				PRODUCT_NAME = Vjapp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88836DB227C5F7BD0028EA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ8X2Y29E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakutek.Vjapp;
+				PRODUCT_NAME = Vjapp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88836DB427C5F7BD0028EA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ8X2Y29E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakutek.Vjapp;
+				PRODUCT_NAME = Vjapp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88836DB527C5F7BD0028EA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ8X2Y29E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rakutek.Vjapp;
+				PRODUCT_NAME = Vjapp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88836D9627C5F7BD0028EA19 /* Build configuration list for PBXProject "Vjapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88836DAE27C5F7BD0028EA19 /* Debug */,
+				88836DAF27C5F7BD0028EA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88836DB027C5F7BD0028EA19 /* Build configuration list for PBXNativeTarget "Vjapp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88836DB127C5F7BD0028EA19 /* Debug */,
+				88836DB227C5F7BD0028EA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88836DB327C5F7BD0028EA19 /* Build configuration list for PBXNativeTarget "Vjapp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88836DB427C5F7BD0028EA19 /* Debug */,
+				88836DB527C5F7BD0028EA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8873928527E0ECB6004C6983 /* XCRemoteSwiftPackageReference "MIDIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MIDIKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8873928627E0ECB6004C6983 /* MIDIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8873928527E0ECB6004C6983 /* XCRemoteSwiftPackageReference "MIDIKit" */;
+			productName = MIDIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		8810706027DEF241001A9ECD /* Vjapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8810706127DEF241001A9ECD /* Vjapp.xcdatamodel */,
+			);
+			currentVersion = 8810706127DEF241001A9ECD /* Vjapp.xcdatamodel */;
+			path = Vjapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88836D9327C5F7BD0028EA19 /* Project object */;
+}

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MIDIKit",
+        "repositoryURL": "https://github.com/orchetect/MIDIKit",
+        "state": {
+          "branch": "main",
+          "revision": "00b62c09568c753bf600331c54818dcb2cdafd14",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftRadix",
+        "repositoryURL": "https://github.com/orchetect/SwiftRadix",
+        "state": {
+          "branch": null,
+          "revision": "467ea909bce637049fe2b6ccf1494886efcdf1e8",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
